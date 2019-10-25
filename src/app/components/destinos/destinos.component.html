@@ -1,0 +1,138 @@
+<app-loading *ngIf="loading" ></app-loading>
+<div class="page3">
+
+  <div class="breadcrumbs">
+    <ul>
+      <li><a href="javascript:void(0)" (click)="getHome()">Home</a></li>
+      <li><a href="javascript:void(0)" (click)="getDestino('lambayeque')">Destinos</a></li>
+    </ul>
+  </div>
+  <div class="wrapper-lugares">
+    <div class="wrapper-lugares-section">
+      <h2> Destinos</h2>
+      <h3>Destino perfecto si eres un amante de la cultura y la naturaleza. Descubre sus hermosos paisajes y gastronomía para sentirte parte de su historia.</h3><span>Selecciona el destino de tu interés</span>
+    </div>
+    <ngx-slick-carousel [config]="slideConfig"  class="wrapper-lugares-listado carousel" id="lugares_listado" #slickModal="slick-carousel">
+
+
+      <div ngxSlickItem  class="wrapper-lugares-item active slide" id="lambayeque">
+        <div (click)="getDestino('lambayeque')">
+          <div class="wrapper-lugares-item-borde">
+            <div class="wrapper-lugares-item-bg"><img src="assets/images/lambayeque.jpg" alt="Lambayeque"></div>
+            <div class="wrapper-lugares-item-titulo">
+              <h3>Lambayeque</h3>
+            </div>
+          </div>
+        </div>
+        </div>
+      <div ngxSlickItem  class="wrapper-lugares-item slide" id="la-libertad">
+        <div  (click)="getDestino('la-libertad')">
+          <div class="wrapper-lugares-item-borde">
+            <div class="wrapper-lugares-item-bg"><img src="assets/images/la-libertad.jpg" alt="la Libertad"></div>
+            <div class="wrapper-lugares-item-titulo">
+              <h3>La Libertad</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div ngxSlickItem class="wrapper-lugares-item slide" id="ucayali">
+        <div  (click)="getDestino('ucayali')">
+          <div class="wrapper-lugares-item-borde">
+            <div class="wrapper-lugares-item-bg"><img src="assets/images/ucayali.jpg" alt="Ucayali"></div>
+            <div class="wrapper-lugares-item-titulo">
+              <h3>Ucayali</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div ngxSlickItem class="wrapper-lugares-item slide" id="junin">
+        <div  (click)="getDestino('junin')">
+          <div class="wrapper-lugares-item-borde">
+            <div class="wrapper-lugares-item-bg"><img src="assets/images/junin.jpg" alt="Junin"></div>
+            <div class="wrapper-lugares-item-titulo">
+              <h3>Junín</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div ngxSlickItem class="wrapper-lugares-item slide" id="arequipa">
+        <div (click)="getDestino('arequipa')">
+          <div class="wrapper-lugares-item-borde">
+            <div class="wrapper-lugares-item-bg"><img src="assets/images/arequipa.jpg" alt="Arequipa"></div>
+            <div class="wrapper-lugares-item-titulo">
+              <h3>Arequipa</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div ngxSlickItem class="wrapper-lugares-item slide" id="moquegua">
+        <div  (click)="getDestino('moquegua')">
+          <div class="wrapper-lugares-item-borde">
+            <div class="wrapper-lugares-item-bg"><img src="assets/images/moquegua.jpg" alt="Moquegua"></div>
+            <div class="wrapper-lugares-item-titulo">
+              <h3>Moquegua</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </ngx-slick-carousel>
+  </div>
+
+
+
+
+
+  <div class="wrapper-destinos" id="ofertas">
+    <div class="wrapper-destinos-section">
+      <h2>{{ resultados.nombre }}</h2>
+    </div>
+    <div class="wrapper-destinos-listado">
+
+
+      <div class="wrapper-destinos-item" *ngFor="let item of resultados['atractivos']" >
+        <div class="wrapper-destinos-item-borde">
+          <div class="wrapper-destinos-item-bg"><img [src]="item.imagen"></div>
+          <div class="wrapper-destinos-item-info">
+            <h3>{{ item.nombre }}</h3>
+            <p> {{ item.descripcion}}</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+    <div class="wrapper-destinos-btn"><span><a href="https://www.ytuqueplanes.com/destinos/" target="_blank">Ver más destinos</a></span></div>
+  </div>
+
+
+
+
+  <div class="wrapper-juego" id="juego">
+    <div class="wrapper-juego-listado">
+      <div class="wrapper-juego-item">
+        <div>
+          <div class="wrapper-juego-item-titulo">
+            <h2>Aprovecha las promociones turísticas y prepárate para disfrutar de este feriado largo</h2>
+          </div>
+          <div class="wrapper-juego-item-btn"><span (click)="getOferta('ucayali')">Ver ofertas</span></div>
+        </div>
+      </div>
+      <div class="wrapper-juego-item">
+        <div>
+          <div class="wrapper-juego-item-titulo">
+            <h2>Participa en el sorteo de un tour a Islas Palomino del Callao contestando una pregunta aquí</h2>
+          </div>
+          <div class="wrapper-juego-item-btn"><span id="boton_juego"><a href="javascript:void(0)" (click)="jugar()">Jugar </a></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--end-->
+<app-modal></app-modal>
+<app-footer></app-footer>

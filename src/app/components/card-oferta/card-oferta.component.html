@@ -1,0 +1,25 @@
+
+
+    <div class="wrapper-ofertas-item" *ngFor="let item of items['ofertas']" >
+        <div class="wrapper-ofertas-item-borde">
+          <div class="wrapper-ofertas-item-porcentaje">
+            <span>{{item.descuento}}%</span>dscto
+          </div>
+          <div class="wrapper-ofertas-item-bg">
+            <img  [src]="item.imagen" alt=""/>
+          </div>
+          <div class="wrapper-ofertas-item-titulo">
+            <h3>{{ item.nombre}}</h3>
+          </div>
+          <div class="wrapper-ofertas-item-info">
+            <span>{{item.descripcion}}</span>
+          </div>
+          <div class="wrapper-ofertas-item-precio">
+            <span>Antes S/. {{ item.precio }}</span><span>S/. {{ item.precioferta}}</span>
+          </div>
+          <div class="wrapper-ofertas-item-btn">
+            <span
+              ><a [href]="item.url"  target="_blank">¡Quiero el descuento!</a></span>
+          </div>
+        </div>
+      </div>

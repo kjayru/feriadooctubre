@@ -1,0 +1,347 @@
+<div class="wrapper-destinos">
+  <div class="wrapper-destinos-section">
+    <h2>
+      Llegó el momento de desconectarte de la rutina visitando todo<br />
+      tipo de paisajes, climas variados y gente encantadora.
+    </h2>
+  </div>
+  <div class="wrapper-destinos-listado" *ngIf="!isMobile" id="destinos_listado">
+    <div class="wrapper-destinos-item">
+      <div class="wrapper-destinos-item-borde">
+        <div class="wrapper-destinos-item-bg">
+          <img src="assets/images/lambayeque.jpg" alt="Lambayeque" />
+        </div>
+        <div class="wrapper-destinos-item-titulo">
+          <h3>Lambayeque</h3>
+        </div>
+      </div>
+      <div class="wrapper-destinos-side">
+        <div class="wrapper-destinos-side-titulo">
+          <h3>Lambayeque</h3>
+        </div>
+        <div class="wrapper-destinos-side-info">
+          <h4>
+            Destino perfecto si eres un amante de la cultura y la naturaleza.
+            Descubre sus hermosos paisajes y gastronomía para sentirte parte de
+            su historia.
+          </h4>
+        </div>
+        <div class="wrapper-destinos-side-btn">
+          <span (click)="getOferta('lambayeque')">
+           Ver ofertas</span
+          ><span (click)="getDestin('lambayeque')"
+            >Atractivos turísticos</span
+          >
+          <!--span.cerrar (x) Cerrar-->
+        </div>
+      </div>
+    </div>
+    <div class="wrapper-destinos-item">
+      <div class="wrapper-destinos-item-borde">
+        <div class="wrapper-destinos-item-bg">
+          <img src="assets/images/ucayali.jpg" alt="Ucayali" />
+        </div>
+        <div class="wrapper-destinos-item-titulo">
+          <h3>Ucayali</h3>
+        </div>
+      </div>
+      <div class="wrapper-destinos-side">
+        <div class="wrapper-destinos-side-titulo">
+          <h3>Ucayali</h3>
+        </div>
+        <div class="wrapper-destinos-side-info">
+          <h4>
+            Conéctate con la naturaleza en medio de la Selva, donde la paz tiene
+            forma de mansas lagunas y bellas cataratas que cubren montañas.
+          </h4>
+        </div>
+        <div class="wrapper-destinos-side-btn ucayali">
+          <span (click)="getOferta('ucayali')">Ver ofertas</span>
+          <span (click)="getDestin('ucayali')">Atractivos turísticos</span>
+
+        </div>
+      </div>
+    </div>
+    <div class="wrapper-destinos-item">
+      <div class="wrapper-destinos-item-borde">
+        <div class="wrapper-destinos-item-bg">
+          <img src="assets/images/arequipa.jpg" alt="Arequipa" />
+        </div>
+        <div class="wrapper-destinos-item-titulo">
+          <h3>Arequipa</h3>
+        </div>
+      </div>
+      <div class="wrapper-destinos-side">
+        <div class="wrapper-destinos-side-titulo">
+          <h3>Arequipa</h3>
+        </div>
+        <div class="wrapper-destinos-side-info">
+          <h4>
+            Arequipa te invita a ver el vuelo de sus cóndores, apreciar sus
+            volcanes y bellos paisajes, además de probar su variada gastronomía.
+          </h4>
+        </div>
+        <div class="wrapper-destinos-side-btn">
+          <span  (click)="getOferta('arequipa')">
+            Ver ofertas</span>
+            <span (click)="getDestin('arequipa')">
+              Atractivos turísticos
+            </span>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper-destinos-item">
+      <div class="wrapper-destinos-item-borde">
+        <div class="wrapper-destinos-item-bg">
+          <img src="assets/images/la-libertad.jpg" alt="La Libertad" />
+        </div>
+        <div class="wrapper-destinos-item-titulo">
+          <h3>La Libertad</h3>
+        </div>
+      </div>
+      <div class="wrapper-destinos-side">
+        <div class="wrapper-destinos-side-titulo">
+          <h3>La Libertad</h3>
+        </div>
+        <div class="wrapper-destinos-side-info">
+          <h4>
+            Ven a esta región donde la historia se mantiene viva, con sus
+            templos ceremoniales preínca y los caballitos de totora que surcan
+            el mar.
+          </h4>
+        </div>
+        <div class="wrapper-destinos-side-btn">
+          <span  (click)="getOferta('la-libertad')">
+              Ver ofertas</span>
+            <span (click)="getDestin('la-libertad')">
+              Atractivos turísticos
+            </span>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper-destinos-item">
+      <div class="wrapper-destinos-item-borde">
+        <div class="wrapper-destinos-item-bg">
+          <img src="assets/images/junin.jpg" alt="Junin" />
+        </div>
+        <div class="wrapper-destinos-item-titulo">
+          <h3>Junín</h3>
+        </div>
+      </div>
+      <div class="wrapper-destinos-side">
+        <div class="wrapper-destinos-side-titulo">
+          <h3>Junín</h3>
+        </div>
+        <div class="wrapper-destinos-side-info">
+          <h4>
+            En el frío también hay belleza, compruébalo al ver las flores
+            multicolor y nevados de esta acogedora región andina.
+          </h4>
+        </div>
+        <div class="wrapper-destinos-side-btn">
+          <span  (click)="getOferta('junin')">
+            Ver ofertas</span
+          ><span (click)="getDestin('junin')"
+            >Atractivos turísticos</span
+          >
+        </div>
+      </div>
+    </div>
+    <div class="wrapper-destinos-item">
+      <div class="wrapper-destinos-item-borde">
+        <div class="wrapper-destinos-item-bg">
+          <img src="assets/images/moquegua.jpg" alt="Moquegua" />
+        </div>
+        <div class="wrapper-destinos-item-titulo">
+          <h3>Moquegua</h3>
+        </div>
+      </div>
+      <div class="wrapper-destinos-side">
+        <div class="wrapper-destinos-side-titulo">
+          <h3>Moquegua</h3>
+        </div>
+        <div class="wrapper-destinos-side-info">
+          <h4>
+            Conoce su hermoso mar, sus bodegas donde se producen algunos de los
+            mejores licores del país y los deliciosos dulces moqueguanos.
+          </h4>
+        </div>
+        <div class="wrapper-destinos-side-btn">
+            <span  (click)="getOferta('moquegua')">
+            Ver ofertas
+            </span>
+            <span (click)="getDestin('moquegua')"
+            >Atractivos turísticos
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <ngx-slick-carousel [config]="slideConfig" class="wrapper-destinos-listado carousel" *ngIf="isMobile" id="destinos_listado" #slickModal="slick-carousel">
+
+    <div ngxSlickItem class="wrapper-destinos-item slide">
+      <div class="wrapper-destinos-item-borde">
+        <div class="wrapper-destinos-item-bg">
+          <img src="assets/images/lambayeque.jpg" alt="Lambayeque" />
+        </div>
+        <div class="wrapper-destinos-item-titulo">
+          <h3>Lambayeque</h3>
+        </div>
+      </div>
+      <div class="wrapper-destinos-side">
+        <div class="wrapper-destinos-side-titulo">
+          <h3>Lambayeque</h3>
+        </div>
+        <div class="wrapper-destinos-side-info">
+          <h4>
+            Destino perfecto si eres un amante de la cultura y la naturaleza.
+            Descubre sus hermosos paisajes y gastronomía para sentirte parte de
+            su historia.
+          </h4>
+        </div>
+        <div class="wrapper-destinos-side-btn">
+          <span  (click)="getOferta('lambayeque')">Ver ofertas</span>
+            <span (click)="getDestin('lambayeque')">Atractivos turísticos</span>
+
+        </div>
+      </div>
+    </div>
+    <div ngxSlickItem class="wrapper-destinos-item slide">
+      <div class="wrapper-destinos-item-borde">
+        <div class="wrapper-destinos-item-bg">
+          <img src="assets/images/ucayali.jpg" alt="Ucayali" />
+        </div>
+        <div class="wrapper-destinos-item-titulo">
+          <h3>Ucayali</h3>
+        </div>
+      </div>
+      <div class="wrapper-destinos-side">
+        <div class="wrapper-destinos-side-titulo">
+          <h3>Ucayali</h3>
+        </div>
+        <div class="wrapper-destinos-side-info">
+          <h4>
+            Conéctate con la naturaleza en medio de la Selva, donde la paz tiene
+            forma de mansas lagunas y bellas cataratas que cubren montañas.
+          </h4>
+        </div>
+        <div class="wrapper-destinos-side-btn ucayali">
+          <span (click)="getOferta('ucayali')">Ver ofertas</span>
+          <span (click)="getDestin('ucayali')">Atractivos turísticos</span>
+          <!--span.cerrar (x) Cerrar-->
+        </div>
+      </div>
+    </div>
+    <div ngxSlickItem class="wrapper-destinos-item slide">
+      <div class="wrapper-destinos-item-borde">
+        <div class="wrapper-destinos-item-bg">
+          <img src="assets/images/arequipa.jpg" alt="Arequipa" />
+        </div>
+        <div class="wrapper-destinos-item-titulo">
+          <h3>Arequipa</h3>
+        </div>
+      </div>
+      <div class="wrapper-destinos-side">
+        <div class="wrapper-destinos-side-titulo">
+          <h3>Arequipa</h3>
+        </div>
+        <div class="wrapper-destinos-side-info">
+          <h4>
+            Arequipa te invita a ver el vuelo de sus cóndores, apreciar sus
+            volcanes y bellos paisajes, además de probar su variada gastronomía.
+          </h4>
+        </div>
+        <div class="wrapper-destinos-side-btn">
+          <span  (click)="getOferta('arequipa')">Ver ofertas</span>
+          <span (click)="getDestin('arequipa')">Atractivos turísticos</span>
+        </div>
+      </div>
+    </div>
+    <div ngxSlickItem class="wrapper-destinos-item slide">
+      <div class="wrapper-destinos-item-borde">
+        <div class="wrapper-destinos-item-bg">
+          <img src="assets/images/la-libertad.jpg" alt="La Libertad" />
+        </div>
+        <div class="wrapper-destinos-item-titulo">
+          <h3>La Libertad</h3>
+        </div>
+      </div>
+      <div class="wrapper-destinos-side">
+        <div class="wrapper-destinos-side-titulo">
+          <h3>La Libertad</h3>
+        </div>
+        <div class="wrapper-destinos-side-info">
+          <h4>
+            Ven a esta región donde la historia se mantiene viva, con sus
+            templos ceremoniales preínca y los caballitos de totora que surcan
+            el mar.
+          </h4>
+        </div>
+        <div class="wrapper-destinos-side-btn">
+          <span (click)="getOferta('la-libertad')">Ver ofertas</span>
+          <span (click)="getDestin('la-libertad')">Atractivos turísticos</span>
+        </div>
+      </div>
+    </div>
+    <div ngxSlickItem class="wrapper-destinos-item slide">
+      <div class="wrapper-destinos-item-borde">
+        <div class="wrapper-destinos-item-bg">
+          <img src="assets/images/junin.jpg" alt="Junin" />
+        </div>
+        <div class="wrapper-destinos-item-titulo">
+          <h3>Junín</h3>
+        </div>
+      </div>
+      <div class="wrapper-destinos-side">
+        <div class="wrapper-destinos-side-titulo">
+          <h3>Junín</h3>
+        </div>
+        <div class="wrapper-destinos-side-info">
+          <h4>
+            En el frío también hay belleza, compruébalo al ver las flores
+            multicolor y nevados de esta acogedora región andina.
+          </h4>
+        </div>
+        <div class="wrapper-destinos-side-btn">
+            <span (click)="getOferta('junin')">Ver ofertas</span>
+            <span (click)="getDestin('junin')">Atractivos turísticos</span>
+        </div>
+      </div>
+    </div>
+    <div ngxSlickItem class="wrapper-destinos-item slide">
+      <div class="wrapper-destinos-item-borde">
+        <div class="wrapper-destinos-item-bg">
+          <img src="assets/images/moquegua.jpg" alt="Moquegua" />
+        </div>
+        <div class="wrapper-destinos-item-titulo">
+          <h3>Moquegua</h3>
+        </div>
+      </div>
+      <div class="wrapper-destinos-side">
+        <div class="wrapper-destinos-side-titulo">
+          <h3>Moquegua</h3>
+        </div>
+        <div class="wrapper-destinos-side-info">
+          <h4>
+            Conoce su hermoso mar, sus bodegas donde se producen algunos de los
+            mejores licores del país y los deliciosos dulces moqueguanos.
+          </h4>
+        </div>
+        <div class="wrapper-destinos-side-btn">
+          <span (click)="getOferta('moquegua')">Ver ofertas</span>
+          <span (click)="getDestin('moquegua')"> Atractivos turísticos</span>
+        </div>
+      </div>
+    </div>
+
+  </ngx-slick-carousel>
+
+  <div class="wrapper-destinos-btn">
+    <span
+      ><a href="https://www.ytuqueplanes.com/destinos/" target="_blank"
+        >Ver más destinos</a
+      ></span
+    >
+  </div>
+</div>

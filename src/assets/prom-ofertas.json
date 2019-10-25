@@ -1,0 +1,236 @@
+[
+  {
+  "id":1,
+  "slug":"ucayali",
+  "nombre":"Ucayali",
+  "ofertas":[
+      {
+        "descuento":"23",
+        "nombre":"Pucallpa Verde",
+        "imagen":"assets/images/ofertas/ucayali/uca_laser_viajes_3d_2n.jpg",
+        "descripcion":"03 Días / 02 Noches",
+        "precio":"500",
+        "precioferta":"385",
+        "url":"https://www.ytuqueplanes.com/oferta/5374_pucallpa-verde",
+        "target":"blank"
+      },
+      {
+        "descuento":"23",
+        "nombre":"Magia en la Selva",
+        "imagen":"assets/images/ofertas/ucayali/uca_laser_viajes_4d_3n.jpg",
+        "descripcion":"04 Días / 03 Noches",
+        "precio":"715",
+        "precioferta":"550",
+        "url":"https://www.ytuqueplanes.com/oferta/5376_magia-en-la-selva",
+        "target":"blank"
+      },
+
+      {
+        "descuento":"17",
+        "nombre":"Ucayali naturaleza y culturas vivas",
+        "imagen":"assets/images/ofertas/ucayali/uca_viridis_tours_3d_2n_1.jpg",
+        "descripcion":"03 Días / 02 Noches",
+        "precio":"650",
+        "precioferta":"540",
+        "url":"https://www.ytuqueplanes.com/oferta/5522_ucayali-naturaleza-y-culturas-vivas",
+        "target":"blank"
+      },
+
+      {
+        "descuento":"23",
+        "nombre":"Selva Mía",
+        "imagen":"assets/images/ofertas/ucayali/uca_viridis_tours_3d_2n_2.jpg",
+        "descripcion":"03 Días / 02 Noches",
+        "precio":"600",
+        "precioferta":"465",
+        "url":"https://www.ytuqueplanes.com/oferta/5523_selva-mia",
+        "target":"blank"
+      },
+      {
+        "descuento":"17",
+        "nombre":"Viva la Selva",
+        "imagen":"assets/images/ofertas/ucayali/uca_viridis_tours_4d_3n.jpg",
+        "descripcion":"04 Días / 03 Noches",
+        "precio":"680",
+        "precioferta":"565",
+        "url":"https://www.ytuqueplanes.com/oferta/5524_viva-la-selva",
+        "target":"blank"
+      },
+      {
+        "descuento":"10",
+        "nombre":"Uni Rao Centro Ecológico",
+        "imagen":"assets/images/ofertas/ucayali/uca_unirao_3d_2n.jpg",
+        "descripcion":"03 Días / 02 Noches",
+        "precio":"398",
+        "precioferta":"358",
+        "url":"https://www.ytuqueplanes.com/oferta/5928_uni-rao-centro-ecologico",
+        "target":"blank"
+      }
+    ]
+ },
+ {
+    "id":2,
+    "slug":"lambayeque",
+    "nombre":"Lambayaque",
+    "ofertas":[
+        ]
+   },
+   {
+    "id":3,
+    "slug":"la-libertad",
+    "nombre":"La Libertad",
+    "ofertas":[
+        {
+          "descuento":"31",
+          "nombre":"Tesoros del norte",
+          "imagen":"assets/images/ofertas/la-libertad/lal_ayni_explorers_4d_3n.jpg",
+          "descripcion":"04 Días / 03 Noches",
+          "precio":"750",
+          "precioferta":"520",
+          "url":"https://www.ytuqueplanes.com/oferta/5540_tesoros-del-norte",
+          "target":"blank"
+        },
+        {
+          "descuento":"38",
+          "nombre":"Trujillo es marinera",
+          "imagen":"assets/images/ofertas/la-libertad/lal_ayni_explorers_3d_2n.jpg",
+          "descripcion":"03 Días / 02 Noches",
+          "precio":"500",
+          "precioferta":"310",
+          "url":"https://www.ytuqueplanes.com/oferta/5541_trujillo-es-marinera",
+          "target":"blank"
+        }
+      ]
+   },
+   {
+    "id":4,
+    "slug":"junin",
+    "nombre":"Junín",
+    "ofertas":[
+        {
+          "descuento":"23",
+          "nombre":"Tour Valle del Mantaro – Selva Central",
+          "imagen":"assets/images/ofertas/junin/jun_sumaq_tours_2d_1n.jpg",
+          "descripcion":"02 Días / 01 Noches",
+          "precio":"200",
+          "precioferta":"155",
+          "url":"https://www.ytuqueplanes.com/oferta/5517_tour-valle-del-mantaro-selva-central",
+          "target":"blank"
+        }
+      ]
+   },
+   {
+    "id":5,
+    "slug":"arequipa",
+    "nombre":"Arequipa",
+    "ofertas":[
+        {
+          "descuento":"10",
+          "nombre":"Arequipa a tu alcance",
+          "imagen":"assets/images/ofertas/arequipa/are_peru_mistika_4d_3n.jpg",
+          "descripcion":"04 Días / 03 Noches",
+          "precio":"645",
+          "precioferta":"579",
+          "url":"https://www.ytuqueplanes.com/oferta/5217_arequipa-a-tu-alcance",
+          "target":"blank"
+        },
+        {
+          "descuento":"15",
+          "nombre":"Arequipa y Colca aventurera",
+          "imagen":"assets/images/ofertas/arequipa/are_peru_mistika_4d_3n_1.jpg",
+          "descripcion":"04 Días / 03 Noches",
+          "precio":"585",
+          "precioferta":"499",
+          "url":"https://www.ytuqueplanes.com/oferta/5218_arequipa-y-colca-aventurera",
+          "target":"blank"
+        },
+        {
+          "descuento":"30",
+          "nombre":"Aventura Arequipa y Cañon del Colca",
+          "imagen":"assets/images/ofertas/arequipa/are_adventure_expeditions_4d_3n.jpg",
+          "descripcion":"04 Días / 03 Noches",
+          "precio":"421",
+          "precioferta":"295",
+          "url":"https://www.ytuqueplanes.com/oferta/5500_aventura-arequipa-y-canon-del-colca",
+          "target":"blank"
+        },
+        {
+          "descuento":"21",
+          "nombre":"Valle del Colca en 1 día",
+          "imagen":"assets/images/ofertas/arequipa/are_sky_viajes_full_day.jpg",
+          "descripcion":"Full Day",
+          "precio":"140",
+          "precioferta":"110",
+          "url":"https://www.ytuqueplanes.com/oferta/5507_valle-del-colca-en-1-dia",
+          "target":"blank"
+        }
+      ]
+   },
+   {
+    "id":6,
+    "slug":"moquegua",
+    "nombre":"Moquegua",
+    "ofertas":[
+        {
+          "descuento":"50",
+          "nombre":"Tour Moquegua entre dulces y vinos",
+          "imagen":"assets/images/ofertas/moquegua/moq_samatours_half_day.jpg",
+          "descripcion":"Half Day",
+          "precio":"170",
+          "precioferta":"85",
+          "url":"https://www.ytuqueplanes.com/oferta/5767_tour-moquegua-entre-dulces-y-vinos",
+          "target":"blank"
+        },
+        {
+          "descuento":"30",
+          "nombre":"Ruta del Pisco & Olivo",
+          "imagen":"assets/images/ofertas/moquegua/moq_expotur_ilo_full_day.jpg",
+          "descripcion":"Full Day",
+          "precio":"150",
+          "precioferta":"105",
+          "url":"https://www.ytuqueplanes.com/oferta/5440_ruta-del-pisco-olivo",
+          "target":"blank"
+        },
+        {
+          "descuento":"13",
+          "nombre":"Ilo tesoro del Perú",
+          "imagen":"assets/images/ofertas/moquegua/moq_exportur_ilo_full_day.jpg",
+          "descripcion":"Full Day",
+          "precio":"146",
+          "precioferta":"126",
+          "url":"https://www.ytuqueplanes.com/oferta/5553_ilo-tesoro-del-peru",
+          "target":"blank"
+        },
+        {
+          "descuento":"13",
+          "nombre":"Ilo, Tesoro del Perú",
+          "imagen":"assets/images/ofertas/moquegua/moq_expoturilo_full_day.jpg",
+          "descripcion":"Full Day",
+          "precio":"159",
+          "precioferta":"139",
+          "url":"https://www.ytuqueplanes.com/oferta/6015_ilo-tesoro-del-peru",
+          "target":"blank"
+        },
+        {
+          "descuento":"15",
+          "nombre":"Moquegua andina",
+          "imagen":"assets/images/ofertas/moquegua/moq_expoturilo_2d_1n.jpg",
+          "descripcion":"02 Días / 01 Noche",
+          "precio":"599",
+          "precioferta":"509",
+          "url":"https://www.ytuqueplanes.com/oferta/6014_moquegua-andina",
+          "target":"blank"
+        },
+        {
+          "descuento":"17",
+          "nombre":"Moquegua milenaria",
+          "imagen":"assets/images/ofertas/moquegua/moq_expotur_ilo_3d_2n.jpg.jpg",
+          "descripcion":"03 Días / 02 Noches",
+          "precio":"899",
+          "precioferta":"749",
+          "url":"https://www.ytuqueplanes.com/oferta/5722_moquegua-milenaria",
+          "target":"blank"
+        }
+      ]
+   }
+]

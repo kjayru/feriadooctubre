@@ -1,0 +1,37 @@
+<app-loading *ngIf="loading"></app-loading>
+
+<div  *ngFor="let item of preguntas; let i = index; first as isFirst">
+
+  <section class="question activo" *ngIf="isFirst" id="ques{{i}}" >
+      <div class="wrapper-modal-preguntas"  >
+        <div class="wrapper-modal-preguntas-titulo">
+          <h2>{{ item.sentencia }}</h2>
+        </div>
+        <div class="wrapper-modal-preguntas-opciones">
+          <ul id="listaunica">
+            <li class="op" (click)="respuesta(item.options[0].id,item.options[0].answer_id,$event)">{{item.options[0].nombre}}</li>
+            <li class="op" (click)="respuesta(item.options[1].id,item.options[1].answer_id,$event)">{{item.options[1].nombre}}</li>
+            <li class="op" (click)="respuesta(item.options[2].id,item.options[2].answer_id,$event)">{{item.options[2].nombre}}</li>
+          </ul>
+        </div>
+      </div>
+  </section>
+
+
+  <section class="question" *ngIf="!isFirst" id="ques{{i}}">
+        <div class="wrapper-modal-preguntas">
+          <div class="wrapper-modal-preguntas-titulo">
+              <h2>{{ item.sentencia }}</h2>
+          </div>
+          <div class="wrapper-modal-preguntas-opciones">
+              <ul id="listaunica">
+                  <li class="op" (click)="respuesta(item.options[0].id,item.options[0].answer_id,$event)">{{item.options[0].nombre}}</li>
+                  <li class="op" (click)="respuesta(item.options[1].id,item.options[1].answer_id,$event)">{{item.options[1].nombre}}</li>
+                  <li class="op" (click)="respuesta(item.options[2].id,item.options[2].answer_id,$event)">{{item.options[2].nombre}}</li>
+                </ul>
+          </div>
+        </div>
+  </section>
+
+</div>
+

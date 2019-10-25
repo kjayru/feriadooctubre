@@ -1,0 +1,105 @@
+
+<div class="wrapper-modal" id="modal_juego">
+  <div class="wrapper-modal-listado">
+    <div class="wrapper-modal-content">
+      <div class="wrapper-modal-item">
+        <div class="wrapper-modal-cerrar" id="cerrar_modal" (click)="closemodal()"></div>
+        <div class="wrapper-modal-preguntas-listado" id="modal_preguntas">
+          <div class="wrapper-modal-titulo">
+            <h2>Para participar debes responder a la siguiente pregunta, ¡suerte!</h2>
+          </div>
+          <div class="preguntas" id="preguntas">
+
+           <!--preguntasss-->
+            <app-card-pregunta [preguntas]="answers" (propagar)="procesaPropagar($event)"></app-card-pregunta>
+          </div>
+
+          <!--NUEVA PREGUNTA-->
+          <div class="wrapper-modal-info" id="opcion1" >
+            <h3>¿No sabes la respuesta?</h3>
+            <h4 id="nueva_pregunta" (click)="nuevaPregunta()">Nueva pregunta</h4>
+          </div>
+          <!--INCORRECTO-->
+          <div class="wrapper-modal-info type_2 " id="opcion2" *ngIf="!result">
+            <h3>¡Respuesta incorrecta!</h3>
+            <h4 id="volver_jugar" (click)="nuevaJuego()">Volver jugar</h4>
+          </div>
+        </div>
+        <!--FORMULARIO REGISTRO-->
+        <div class="wrapper-modal-form active" [hidden]="submitted" id="modal_form" *ngIf="result">
+          <div class="wrapper-form-titulo">
+            <h3>¡Respuesta correcta!</h3>
+            <h4>
+              Ingresa tus datos para participar del sorteo hasta
+              <b>el mediodía del lunes 28 de octubre.</b>
+            </h4>
+          </div>
+          <form ngNativeValidate class="form" id="form"  (ngSubmit)="onSubmit()" #refForm="ngForm">
+
+            <dl class="type">
+              <dt>
+                <label class="label">Nombres y apellidos</label>
+                <input class="text" id="nombres" [(ngModel)]="model.nombres" type="text" name="nombres" minlength="7" maxlength="100" required #nombres="ngModel">
+
+                <div *ngIf="nombres.invalid && (nombres.dirty || nombres.touched)" class="error">
+                    <span id="errornombre" class="active" *ngIf="nombres.errors['required']">Formato inválido</span>
+                </div>
+
+              </dt>
+            </dl>
+            <dl class="type">
+              <dt>
+                <label class="label">Correo electrónico</label>
+                <input class="text" id="email" type="email" [(ngModel)]="model.email" name="email" required email #email="ngModel"><span id="errorcorreo">Formato inválido</span>
+              </dt>
+            </dl>
+            <dl class="type">
+              <dt>
+                <label class="label">Edad</label>
+                <input class="text" id="edad" type="number" name="edad" [(ngModel)]="model.edad" maxlength="2" minlength="2" required #edad="ngModel"><span id="erroredad">Formato inválido</span>
+              </dt>
+            </dl>
+            <dl class="type row1">
+              <dt>
+                <label class="label">T. documento</label>
+                <select class="select" id="tipodocumento" name="tipo_documento" [(ngModel)]="model.tipo_documento"[(ngModel)]='nrSelect'>
+
+                  <option value="Dni" selected="true">DNI </option>
+                  <option value="Carnet de extranjería">Carnet de extranjería </option>
+                </select>
+              </dt>
+            </dl>
+            <dl class="type row2">
+              <dt>
+                <label class="label">Número de documento</label>
+                <input class="text" id="documento" type="text" name="numero_documento" [(ngModel)]="model.numero_documento" minlength="8" maxlength="12" required #numero_documento="ngModel">
+
+                <div *ngIf="numero_documento.invalid && (numero_documento.dirty || numero_documento.touched)" class="error">
+                    <span id="errordocumento" class="active" *ngIf="numero_documento.errors['required']" >Formato inválido</span>
+                 </div>
+
+              </dt>
+            </dl>
+            <dl class="type">
+              <dt> <a href="assets/terminos-condiciones.pdf" target="_blank">Ver términos y condiciones.</a></dt>
+            </dl>
+            <dl class="type">
+              <dt>
+                <button class="boton" id="enviar" type="submit" >Enviar</button>
+              </dt>
+            </dl>
+          </form>
+        </div>
+
+        <!--GRACIAS-->
+        <div class="wrapper-modal-exito" [hidden]="!submitted" id="modal_exito">
+          <div class="wrapper-modal-exito-titulo">
+            <h2>¡Felicidades, ya estás participando! </h2>
+            <h3>Descubre las principales ofertas para<br> el feriado largo		</h3>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

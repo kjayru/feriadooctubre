@@ -1,0 +1,173 @@
+[
+  {
+  "id":1,
+  "nombre":"Lambayeque",
+  "slug":"lambayeque",
+  "atractivos":[
+      {
+        "nombre":"Señor de Sipán",
+        "descripcion":"Conoce el Complejo Arqueológico Huaca Rajada donde fue descubierta la tumba del gobernante de la cultura Mochica. Completa tu experiencia con nuestro pasado en el Museo Tumbas Reales de Sipán, que exhibe la osamenta, joyas, cerámicas y otros objetos del líder preínca.",
+        "imagen":"assets/images/destinos/lambayeque/Senor_de_Sipan.jpg"
+      },
+      {
+        "nombre":"Complejo Arqueológico de Túcume",
+        "descripcion":"Arqueología y naturaleza se combinan en el Valle de La Leche, donde los árboles rodean 26 pirámides de adobe que conforman el Complejo Arqueológico de Túcume. Cuando llegues sube al cerro El Purgatorio desde donde tendrás el mejor panorama de del lugar y no dejes de visitar el Museo de Sitio Túcume, que resguarda más de mil objetos de textilería, cerámica y metal.",
+        "imagen":"assets/images/destinos/lambayeque/Complejo_Arqueologico_de_Tucume.jpg"
+      },
+      {
+        "nombre":"Catedral de la Ciudad de Chiclayo",
+        "descripcion":"Al llegar al centro de la ciudad lo primero que cautivará tus ojos será esta catedral de estilo neoclásico, con su portada de dos cuerpos y columnas dóricas que se anteponen a los arcos de entrada. El encargado de crear esta belleza arquitectónica fue Gustave Eiffel, quien diseñó la famosa torre francesa.",
+        "imagen":"assets/images/destinos/lambayeque/Catedral_de_la_Ciudad_de_Chiclayo.jpg"
+      },
+      {
+        "nombre":"Balneario de Pimentel",
+        "descripcion":"Si te apasionan los deportes acuáticos y la gastronomía marina, el sol del norte te espera para que disfrutes de este paradisiaco balneario. Aquí puedes disfrutar un tiradito, chicharrón de pescado o parihuela mientras ves el atardecer lambayecano que no tiene comparación.",
+        "imagen":"assets/images/destinos/lambayeque/Balneario_de_Pimentel.jpg"
+      }
+    ]
+ },
+ {
+  "id":2,
+  "nombre":"La Libertad",
+  "slug":"la-libertad",
+  "atractivos":[
+      {
+        "nombre":"Ciudadela de Chan Chan",
+        "descripcion":"Conoce el Complejo Arqueológico Huaca Rajada donde fue descubierta la tumba del gobernante de la cultura Mochica. Completa tu experiencia con nuestro pasado en el Museo Tumbas Reales de Sipán, que exhibe la osamenta, joyas, cerámicas y otros objetos del líder preínca.",
+        "imagen":"assets/images/destinos/lambayeque/Senor_de_Sipan.jpg"
+      },
+      {
+        "nombre":"Huaca del Sol y Huaca de la Luna",
+        "descripcion":"Arqueología y naturaleza se combinan en el Valle de La Leche, donde los árboles rodean 26 pirámides de adobe que conforman el Complejo Arqueológico de Túcume. Cuando llegues sube al cerro El Purgatorio desde donde tendrás el mejor panorama de del lugar y no dejes de visitar el Museo de Sitio Túcume, que resguarda más de mil objetos de textilería, cerámica y metal.",
+        "imagen":"assets/images/destinos/lambayeque/Complejo_Arqueologico_de_Tucume.jpg"
+      },
+      {
+        "nombre":"Balneario de Huanchaco",
+        "descripcion":"Al llegar al centro de la ciudad lo primero que cautivará tus ojos será esta catedral de estilo neoclásico, con su portada de dos cuerpos y columnas dóricas que se anteponen a los arcos de entrada. El encargado de crear esta belleza arquitectónica fue Gustave Eiffel, quien diseñó la famosa torre francesa.",
+        "imagen":"assets/images/destinos/lambayeque/Catedral_de_la_Ciudad_de_Chiclayo.jpg"
+      }
+    ]
+
+ },
+ {
+    "id":3,
+    "nombre":"Ucayali",
+    "slug":"ucayali",
+    "atractivos":[
+        {
+          "nombre":"Laguna Yarinacocha",
+          "descripcion":"Disfruta de una impresionante vista en una de las Lagunas más bellas de la región, relájate observado este paraje natural muy cerca a la ciudad Pucallpa, la tierra colorada.",
+          "imagen":"assets/images/destinos/ucayali/ucayali-yarinacocha.jpg"
+        },
+        {
+          "nombre":"Caída de agua Velo de la Novia",
+          "descripcion":"Zambúllete en las aguas cristalinas de la catarata más famosa de Ucayali, donde podrás refrescarte y disfrutar de la gastronomía regional.",
+          "imagen":"assets/images/destinos/ucayali/ucayali-velo-de-novia.jpg"
+        },
+        {
+          "nombre":"Parque Natural de Pucallpa",
+          "descripcion":"En un solo lugar podrás apreciar la flora y fauna que alberga la región, y dónde podrás tomarte espectaculares fotografías en las escultura con forma de bocas de lagarto y felino.",
+          "imagen":"assets/images/destinos/ucayali/ucayali-pucallpa.jpg"
+        }
+      ]
+
+   },
+   {
+    "id":4,
+    "nombre":"Junín",
+    "slug":"junin",
+    "atractivos":[
+        {
+          "nombre":"Nevado de Huaytapallana",
+          "descripcion":"Si buscas una experiencia extrema este destino te encantará. A cuatro mil metros de altitud comenzarás el ascenso a la cima de la gran montaña de hielo y nieve, un recorrido en el que verás cinco lagunas entre la que se destaca Cochagrande por su color esmeralda.",
+          "imagen":"assets/images/destinos/junin/junin-nevado-de-huaytapallana.jpg"
+        },
+        {
+          "nombre":"Laguna de Paca",
+          "descripcion":"Disfruta de la exquisita gastronomía frente a una de las lagunas más hermosas de la región, donde podrás apreciar una formación rocosa denominada por la población como el Indio Dormido. En sus orillas encontrarás restaurantes para saborear pachamanca y trucha frita.",
+          "imagen":"assets/images/destinos/junin/junin-laguna-de-paca.jpg"
+        },
+        {
+          "nombre":"Tarma",
+          "descripcion":"Conocida como la Perla de los Andes, podrás disfrutar de enormes campos con flores multicolor, te podrás conectar con la religiosidad andina, visitando el Santuario del Señor de Muruhuay, donde hay una imagen de Cristo crucificado pintada en una roca, que para los lugareños es milagrosa.",
+          "imagen":"assets/images/destinos/junin/junin-tarma.jpg"
+        }
+      ]
+   },
+   {
+    "id":5,
+    "nombre":"Arequipa",
+    "slug":"arequipa",
+    "atractivos":[
+        {
+          "nombre":"Colca",
+          "descripcion":"Anímate a conocer uno de los cañones más profundos del mundo con aproximadamente 4,160 metros. Allí está el Mirador de la Cruz del Cóndor desde donde podrás ver el vuelo de esta majestuosa ave y tener una magnifica vista del cañón formado por las aguas del río Colca.",
+          "imagen":"assets/images/destinos/arequipa/arequipa-colca.jpg"
+        },
+        {
+          "nombre":"Ruta del sillar",
+          "descripcion":"A 45 minutos de Arequipa se ubican las canteras de Añashuayco, Cortadores y Culebrillas en donde apreciarás cómo se trabaja el principal material arquitectónico del centro histórico de la ciudad. Un recorrido por extensas quebradas blancas donde nuestros antepasados Wari también dejaron huellas.",
+          "imagen":"assets/images/destinos/arequipa/arequipa-ruta-del-sillar.jpg"
+        },
+        {
+          "nombre":"Mirador de Yanahuara",
+          "descripcion":"Cerca del centro histórico de Arequipa encontrarás un conjunto de arcos con frases de personajes ilustres, desde donde podrás ver toda la ciudad y los volcanes Misti, Chachani y Pichu Pichu.",
+          "imagen":"assets/images/destinos/arequipa/arequipa-yanahuara.jpg"
+        },
+        {
+            "nombre":"Catedral de Arequipa",
+            "descripcion":"En la Ciudad Blanca encontrarás una de las catedrales más grandes del Perú, dentro se halla un hermoso púlpito traído desde Francia y un órgano monumental belga de 12 metros de alto, piezas que se complementan con su museo de arte religioso, accediendo además a sus torres con una hemosa vista en 360°.",
+            "imagen":"assets/images/destinos/arequipa/arequipa-catedral-de-arequipa.jpg"
+          },
+        {
+            "nombre":"Monasterio de Santa Catalina",
+            "descripcion":"Descubre la ciudadela amurallada de 22 mil metros cuadrados con claustros, plazas, calles, techos de teja y suelos empedrados. En su interior te maravillarás al presenciar las pinturas coloniales, los tallados y otros objetos de hace más de cuatro siglos.",
+            "imagen":"assets/images/destinos/arequipa/arequipa-santa-catalina.jpg"
+          },
+          {
+            "nombre":"Picanterías",
+            "descripcion":"Comer es una pasión en Arequipa, donde hay una gran variedad de restaurantes típicos conocidos como picanterías, su gastronomía cuenta con más de 700 recetas de platos típicos que se sirven con la sabrosa chicha de güiñapo.",
+            "imagen":"assets/images/destinos/arequipa/arequipa-picanterias.jpg"
+          }
+
+      ]
+   },
+   {
+    "id":6,
+    "nombre":"Moquegua",
+    "slug":"moquegua",
+    "atractivos":[
+        {
+          "nombre":"Punta Coles",
+          "descripcion":"Si te gustan los animales este destino te va a encantar. Aquí habitan unos 4,000 lobos marinos y una gran variedad de aves guaneras. Te recomendamos llegar antes de las 9:00 a.m. para que veas la fauna en su máximo esplendor desde que sale el sol.",
+          "imagen":"assets/images/destinos/moquegua/moquegua-punta-coles.jpg"
+        },
+        {
+          "nombre":"Plaza Mayor de Moquegua",
+          "descripcion":"Llega a esta plaza y enamórate de sus tres casonas típicas Chocano, De la Flor y Antigua Cárcel Pública; que se encuentran junto a gigantescos árboles ficus y cerca de una pileta que se construyó en París en el siglo XIX.",
+          "imagen":"assets/images/destinos/moquegua/moquegua-plaza.jpg"
+        },
+        {
+          "nombre":"Puerto Inglés",
+          "descripcion":"Una de las playas más tranquilas de Moquegua te está esperando con sus acantilados rocosos que la rodean y le dan forma de piscina. Zambúllete en sus aguas quietas y cristalinas para que sientas la paz que te ofrece el sur de Ilo.",
+          "imagen":"assets/images/destinos/moquegua/moquegua-puerto-ingles.jpg"
+        },
+
+        {
+            "nombre":"Malecón de Ilo",
+            "descripcion":"Disfruta de una relajante caminata por este malecón de 1.6 kilómetros en el que podrás visitar la Glorieta José Gálvez y el Muelle Fiscal construido a fines de siglo XIX.",
+            "imagen":"assets/images/destinos/moquegua/moquegua-malecon-ilo.jpg"
+        },
+        {
+            "nombre":"Campiña Moqueguana",
+            "descripcion":"No hay mejor brindis moqueguano que el que se hace en los valles donde se produce pisco y vino. Recorre las principales bodegas coloniales y disfruta las mejores reservas vitivinícolas de la zona.",
+            "imagen":"assets/images/destinos/moquegua/moquegua-campina-moqueguana.jpg"
+        },
+        {
+            "nombre":"Catedral Santo Domingo",
+            "descripcion":"La arquitectura de este templo no es lo único que te cautivará, también el fervor de los fieles quienes llegan a la catedral para venerar a Santa Fortunata, cuyos restos fueron exhumados de las Catacumbas de Calepodio (Italia) y llevados a Moquegua en 1798.",
+            "imagen":"assets/images/destinos/moquegua/moquegua-catedral-santo-domingo.jpg"
+        }
+      ]
+   }
+]
